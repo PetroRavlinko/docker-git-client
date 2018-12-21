@@ -1,2 +1,3 @@
-FROM centos:7
-RUN yum -y install git-svn
+FROM ubuntu:18.04
+RUN apt update
+RUN apt install -y git-svn
